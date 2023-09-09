@@ -2,11 +2,7 @@
 #include <time.h>
 #include <stdio.h> 
 /* 
-positive or negative 
-*/
-/* 
 main: entry point
-
 return: Always 0 
 */
 int main(void)
