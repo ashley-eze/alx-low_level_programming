@@ -1,0 +1,21 @@
+#include <stdio.h>
+
+/**
+* main - Prints the lowercase alphabet in reverse followed by a newline.
+*
+* Return: Always 0
+*/
+int main(void)
+{
+char rep = 'z';
+
+while (rep >= 'a')
+{
+putchar(rep);
+letter--;
+}
+
+putchar('\n'); /* Print a newline character */
+
+return (0);
+}
