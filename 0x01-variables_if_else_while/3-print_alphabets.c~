@@ -12,13 +12,13 @@ char alphaUppercase = 'A';
 
 while (alphaLowercase <= 'z')
 {
-putchar(alphaLowercase);
+putchar(alphaLowercase); // Print lowercase alphabet
 alphaLowercase++;
 }
 
 while (alphaUppercase <= 'Z')
 {
-putchar(alphaUppercase);
+putchar(alphaUppercase); // Print uppercase alphabet
 alphaUppercase++;
 }
 
