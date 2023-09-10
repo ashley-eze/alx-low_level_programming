@@ -12,10 +12,10 @@ char rep = 'z';
 while (rep >= 'a')
 {
 putchar(rep);
-letter--;
+rep--;
 }
 
-putchar('\n'); /* Print a newline character */
+ putchar('\n');
 
 return (0);
 }
