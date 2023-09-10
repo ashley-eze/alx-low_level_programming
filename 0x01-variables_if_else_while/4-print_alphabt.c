@@ -16,7 +16,7 @@ putchar(rep);
 }
 rep++;
 }
-putchar('\n'); 
+putchar('\n');
 
 return (0);
 }
