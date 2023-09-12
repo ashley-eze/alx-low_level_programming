@@ -1,0 +1,18 @@
+#!/bin/bash
+
+if [ -z "$CFILE" ]; then
+  echo "Error: CFILE variable is not set."
+  exit 1
+fi
+
+if [ ! -e "$CFILE" ]; then
+  echo "Error: Input C file '$CFILE' does not exist."
+  exit 1
+fi
+
+BASENAME=$(basename "$CFILE" .c)
+ASSEMBLY_FILE="$BASENAME.s"
+
+gcc -S -masm=intel "$CFILE" -o "$ASSEMBLY_FILE"
+
+echo "Assembly code has been generated and saved to '$ASSEMBLY_FILE'."
