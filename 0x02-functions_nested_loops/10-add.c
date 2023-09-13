@@ -6,8 +6,8 @@
 *
 *Description: function that adds two integers and prints result
 *
-* a: first integer
-* b: second integer
+*@a: first integer
+*@b: second integer
 *
 * Return:sum.
 *
