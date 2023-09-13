@@ -11,7 +11,7 @@ char small = 'a';
 while (small <= 'z')
 {
 _putchar(small);
- small++;
+small++;
 }
 _putchar('\n');
 }
