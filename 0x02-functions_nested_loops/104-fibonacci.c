@@ -3,7 +3,7 @@
 /**
 * main - Entry point
 *
-* Description: Finds and prints the first 98 Fibonacci numbers
+* Description: Finds and prints the first 98 Fibonacci numbers.
 *
 * Return: Always 0
 */
@@ -20,9 +20,11 @@ next = x + y;
 printf(", %lu", next);
 x = y;
 y = next;
+if (next >= 4000000)
+break;
 }
 
 printf("\n");
 
- return (0);
+return (0);
 }
