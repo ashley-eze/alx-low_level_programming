@@ -1,19 +1,24 @@
 #include <stdio.h>
 
+/**
+* main - prints the first 50 fibbonacci numbers
+* Return: Always 0.
+*/
+
 int main(void)
 {
-    int sum = 0;
-    int n;
+int sum = 0;
+int i;
 
-    for (n = 0; n < 1024; n++)
-    {
-        if (n % 3 == 0 || n % 5 == 0)
-        {
-            sum += n;
-        }
-    }
+for (i = 0; i < 1024; i++)
+{
+if (i % 3 == 0 || i % 5 == 0)
+{
+sum += i;
+}
+}
 
-    printf("%d\n", sum);
+printf("%d\n", sum);
 
-    return 0;
+return (0);
 }
