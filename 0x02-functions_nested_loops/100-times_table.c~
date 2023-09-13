@@ -1,0 +1,30 @@
+#include "main.h"
+#include <stdio.h>
+
+/**
+ * print_times_table - Prints the n times table.
+ * @n: Timestable to print.
+ *
+ * Description: If n is greater than 15 or less than 0, the function does
+ * not print anything.
+ */
+void print_times_table(int n)
+{
+if (n < 0 || n > 15)
+return;
+
+int a, b, result;
+
+for (a = 0; a <= n; a++)
+{
+for (b = 0; b <= n; b++)
+{
+result = a * b;
+if (b == 0)
+printf("%d", result);
+else
+printf(", %d", result < 10 ? result : result < 100 ? result : result);
+}
+printf("\n");
+}
+}
