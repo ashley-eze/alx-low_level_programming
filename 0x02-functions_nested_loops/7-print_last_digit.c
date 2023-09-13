@@ -4,6 +4,9 @@
 *print-the_last_digit - prints the last digit of a number
 *
 *@a: The number to extract the last digit from.
+*
+* Description: This function takes an integer 'a ' and prints the last digit of 'a'.
+*
 *Return: value of the last digit
 */
 int print_last_digit(int a)
