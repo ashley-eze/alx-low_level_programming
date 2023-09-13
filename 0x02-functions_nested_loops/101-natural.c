@@ -1,20 +1,20 @@
 #include <stdio.h>
 
 /**
-* main - prints the first 50 fibbonacci numbers
+* main - entry point
 * Return: Always 0.
 */
 
 int main(void)
 {
 int sum = 0;
-int i;
+int a;
 
-for (i = 0; i < 1024; i++)
+for (a = 0; a < 1024; a++)
 {
-if (i % 3 == 0 || i % 5 == 0)
+if (a % 3 == 0 || a % 5 == 0)
 {
-sum += i;
+sum += a;
 }
 }
 
