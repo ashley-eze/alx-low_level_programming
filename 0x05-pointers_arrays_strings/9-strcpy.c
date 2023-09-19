@@ -18,5 +18,5 @@ src++;
 }
 
 *dest = '\0';
-return p;
+return (p);
 }
