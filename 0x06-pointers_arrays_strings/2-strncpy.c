@@ -3,23 +3,22 @@
  * _strncpy - concatenate strings, defining the size of second string.
  * @dest: string with concatenation
  * @src: string to be concatenated
- * @n: size of second string
+ * @n: size of string
  * Return: Always 0.
  */
 
 char *_strncpy(char *dest, char *src, int n)
 {
-int x;
+int i;
 
-for (x = 0; x < n && src[x] != '\0'; x++)
+for (i = 0; i < n && src[i] != '\0'; i++)
 {
-dest[x] = src[x];
+dest[i] = src[i];
 }
-
-while (x < n)
+while (i < n)
 {
-dest[x] = '\0';
-x++;
+dest[i] = '\0';
+i++;
 }
 
 return dest;
