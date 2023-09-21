@@ -17,8 +17,8 @@ while (*(dest + Des) != '\0')
 Des++;
 
 while (*(src + Source) != '\0' && Des < 97 && Source < n)
- {
- *(dest + Des) = *(src + Source);
+{
+*(dest + Des) = *(src + Source);
 Des++;
 Source++;
 }
