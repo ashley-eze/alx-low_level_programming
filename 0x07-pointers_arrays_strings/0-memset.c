@@ -1,9 +1,10 @@
 /**
-* _memset - fill a block of memory with a specific value
-* @s: pointer
-* @b: constant byte
-* @n: number of byte of memory area
-* return: array with new value for n bytes.
+*_memset -  function fills the first n bytes of the memory area
+*Description- a function that fills memory with a constant byte.
+*@s: pointer
+*@b: constant byte
+*@n: number of byte of memory area
+*Return: array with new value for n bytes.
 */
 
 char *_memset(char *s, char b, unsigned int n)
