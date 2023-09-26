@@ -3,7 +3,7 @@
 * @s: pointer
 * @b: constant byte
 * @n: number of byte of memory area
-* Return- array with new value for n bytes.
+* return: array with new value for n bytes.
 */
 
 char *_memset(char *s, char b, unsigned int n)
