@@ -1,0 +1,7 @@
+# Compile each C source file individually into object files (.o)
+gcc -c 0-isupper.c
+gcc -c 0-memset.c
+# Repeat the above line for all other source files
+
+# Create the static library (libmy.a) by combining the object files
+ar rcs libmy.a 0-isupper.o 0-memset.o 1-isdigit.o 1-memcpy.o 1-strncat.o 100-atoi.o 2-strchr.o 2-strlen.o 2-strncpy.o 3-islower.o 3-puts.o 3-strcmp.o 3-strspn.o 4-isalpha.o 4-strpbrk.o 5-strstr.o 6-abs.o 9-strcpy.o _putchar.o
